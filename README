@@ -1,7 +1,7 @@
 tx: A simple utility to execute commands for a period of time
 
 tx is a simple utility that executes a command for a period of time,
-and then ending it by sending SIGINT after that time is up.
+and then ends it by sending SIGINT after that time is up.
 
 To install:
 1. make
