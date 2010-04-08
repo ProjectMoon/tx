@@ -1,0 +1,14 @@
+tx: A simple utility to execute commands for a period of time
+
+tx is a simple utility that executes a command for a period of time,
+and then ending it by sending SIGINT after that time is up.
+
+To install:
+1. make
+2. sudo make install
+
+By default, tx will install itself to /usr/local/bin/. If you want
+to put it in a different place, edit the Makefile.
+
+Usage:
+tx -t <seconds> <command>
