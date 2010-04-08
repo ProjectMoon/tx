@@ -8,7 +8,9 @@ To install:
 2. sudo make install
 
 By default, tx will install itself to /usr/local/bin/. If you want
-to put it in a different place, edit the Makefile.
+to put it in a different place, edit the Makefile. You can also
+probably pass the variable INSTALLDIR as part of the command to
+change where it is installed.
 
 Usage:
 tx -t <seconds> <command>
